@@ -1,0 +1,9 @@
+<!--查询界面-->
+<view class="input_back">
+<input bindinput="InputAction"  class="input" name="datename" placeholder="请输入日程名称" auto-focus="true" />
+<button type="primary" bindtap="submint_ans" style="width: 202rpx; height: 85rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">确认</button>
+</view>
+
+<view class="position">
+  <text>{{ans}}</text>
+</view>
